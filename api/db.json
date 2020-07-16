@@ -1,0 +1,74 @@
+{
+  "users": [
+    {
+      "username": "dobleh",
+      "password": "maungapain",
+      "role": "admin",
+      "id": 1
+    },
+    {
+      "username": "indo",
+      "password": "1234",
+      "role": "user",
+      "id": 2
+    },
+    {
+      "username": "ronaldo",
+      "password": "1234",
+      "role": "seller",
+      "id": 3
+    },
+    {
+      "username": "jokowi",
+      "password": "1234",
+      "role": "user",
+      "id": 4
+    },
+    {
+      "username": "dwayne",
+      "password": "1234",
+      "role": "seller",
+      "id": 5
+    }
+  ],
+  "sellers": [
+    {
+      "storename": "sunbucks",
+      "storeimage": "https://www.ronniesainiphotography.com/wp-content/uploads/starbucks-corporate-photoshoot-boston-02.jpg",
+      "logo": "",
+      "userId": 3,
+      "id": 1
+    },
+    {
+      "storename": "holylamb",
+      "storeimage": "https://i.pinimg.com/originals/e5/19/25/e51925f5b5d2220b13abced253f7629e.jpg",
+      "userId": 5,
+      "id": 2
+    }
+  ],
+  "products": [
+    {
+      "name": "greentea",
+      "sellerId": 1,
+      "id": 1
+    }
+  ],
+  "orders": [
+    {
+      "status": "oncart",
+      "userId": 2,
+      "sellerId": 1,
+      "payment": "cash",
+      "id": 1
+    }
+  ],
+  "orderdetails": [
+    {
+      "orderId": 1,
+      "productId": 1,
+      "qty": 1,
+      "message": "panas",
+      "id": 1
+    }
+  ]
+}
